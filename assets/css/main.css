@@ -1587,6 +1587,7 @@
 			border-bottom-color: transparent;
 			color: #49bf9d !important;
 			text-decoration: none;
+			border-bottom:solid 1px;
 		}
 
 	strong, b {
