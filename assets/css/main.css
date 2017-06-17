@@ -1578,7 +1578,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		border-bottom: transparent;
 		color: #49bf9d;
 		text-decoration: none;
 	}
@@ -1994,7 +1994,6 @@
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/twitter header.jpg");
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2018,7 +2017,7 @@
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'go see';
+				content: 'Go see';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -2481,7 +2480,7 @@
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/twitter header.jpeg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
@@ -2492,7 +2491,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 30%;
 	}
 
 		#header > * {
@@ -2526,9 +2525,19 @@
 			margin: 0;
 		}
 
+		#header a {
+			color: #ffffff;
+		}
+
+		#header a:hover {
+			border-bottom-color: transparent;
+			color: #49bf9d !important;
+			text-decoration: none;
+		}
+
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 8.0em;
 		}
 
 /* Footer */
@@ -2884,6 +2893,7 @@
 					#header h1 br {
 						display: none;
 					}
+	
 
 		/* Footer */
 
@@ -3015,6 +3025,8 @@
 			header.major h2 {
 				font-size: 1.35em;
 			}
+
+
 
 		/* List */
 
