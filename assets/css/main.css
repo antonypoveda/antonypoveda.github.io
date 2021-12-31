@@ -1716,9 +1716,6 @@
 	section.special, article.special {
 		text-align: center;
 	}
-	p {
-		color: #1f1815;
-}
 	header p {
 		color: #b2b2b2;
 		position: relative;
@@ -2453,7 +2450,7 @@
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			font-size: 1.5em;
 			margin: 0 0 0.5em 0;
 		}
 
