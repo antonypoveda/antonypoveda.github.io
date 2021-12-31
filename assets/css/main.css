@@ -1566,7 +1566,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #1f1815;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -1716,7 +1716,9 @@
 	section.special, article.special {
 		text-align: center;
 	}
-
+	p {
+		color: #1f1815;
+}
 	header p {
 		color: #b2b2b2;
 		position: relative;
